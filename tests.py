@@ -27,7 +27,7 @@ class TestCase(unittest.TestCase):
     def testComputeDays(self):
         self.assertEqual(task.computeDays(date(2009, 8, 12), date(2009, 8, 15)), 3)
         self.assertEqual(task.computeDays(date(2011, 4, 5), date(2011, 4, 4)), 1)
-        self.assertEqual(task.computeDays(date(2017,5,1),date(2017,5,1)), 0)
+        self.assertEqual(task.computeDays(date(2017, 5, 1), date(2017, 5, 1)), 0)
 
 
 if __name__ == '__main__':
