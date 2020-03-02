@@ -18,7 +18,6 @@ class TestCase(unittest.TestCase):
         self.assertEqual(task.computeArea(0), 0)
         self.assertEqual(task.computeArea(1), math.pi*1*1)
 
-
     def testFirstLastList(self):
         self.assertEqual(task.firstLastList([1, 2, 3]), 1, 3)
         self.assertEqual(task.firstLastList([0, 1]), 0, 1)
