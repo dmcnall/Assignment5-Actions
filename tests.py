@@ -1,6 +1,7 @@
 import unittest
 import task
 
+
 class TestCase(unittest.TestCase):
 
 
@@ -8,9 +9,11 @@ class TestCase(unittest.TestCase):
         expected = "success"
         self.assertEqual(expected, task.firstrun())
 
+
     def test2(self):
         expected = "failure"
         self.assertNotEqual(expected, task.firstrun())
+
 
     def testComputeArea(self):
         self.assertEqual(task.computeArea(3), 3.14*3*3)
