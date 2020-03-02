@@ -13,4 +13,4 @@ class TestCase(unittest):
 
 
 if __name__ == '__main__':
-    unitttest.main()
+    unittest.main()
